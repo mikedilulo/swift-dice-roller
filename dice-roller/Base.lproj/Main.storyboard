@@ -42,11 +42,18 @@
                                 <state key="normal" title="Roll Dice">
                                     <color key="titleColor" red="0.025117205900000002" green="0.27468526920000003" blue="0.00107265061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeDiceWhenPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p7o-vA-7Dy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.025117205900000002" green="0.27468526920000003" blue="0.00107265061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="diceImageViewTwo" destination="M0V-Mw-CQ7" id="TpU-KW-QeW"/>
+                        <outlet property="diceViewImageOne" destination="AmA-4q-KUV" id="1Ls-me-0YJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
